@@ -1,6 +1,6 @@
 FROM chainmapper/walletbase-xenial
 
-ENV WALLET_URL=https://github.com/seduscoin/seduscoin/releases/download/v1.0/linux-binaries.tar.gz
+ENV WALLET_URL=https://github.com/seduscoin/seduscoin/releases/download/v1.0/seduscoin-cli-linux.tar.gz
 
 RUN wget $WALLET_URL -O /tmp/wallet.tar.gz \
 	&& cd /usr/local/bin \
